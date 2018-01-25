@@ -1,0 +1,36 @@
+/* Para elemento #titulo */
+#titulo { color: rgb(147, 156, 17); }
+/* Para elemento #subtitulo y caption*/
+#subtitulo, caption { color: rgb(34, 41, 102); }
+/* Para elemento .destacado */
+.destacado, th { color: rgb(214, 172, 34); }
+/* Para elemento strong */
+strong { color: rgb(214, 34, 34); }
+/* Para elemento .especial */
+span.especial { color: rgb(186, 49, 199); }
+/* Para elemento # */
+a { color: rgb(214, 34, 34); }
+/* Para elemento em */
+a em { color: rgb(68, 85, 231); }
+/* Para elemento div */
+div#adicional p { color: rgb(220, 231, 68); }
+/* Para elemento sapn div */
+div#adicional span#especial { color: rgb(231, 68, 223); }
+/* Para elemento enlace div */
+div#adicional a { color: rgb(68, 231, 68); }
+/* Para elemento caption */
+th.especial { color: rgb(214, 34, 34); }
+td 
+
+
+
+
+
+table .especial
+
+
+
+
+
+
+

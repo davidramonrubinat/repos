@@ -1,0 +1,109 @@
+body{
+    background-color: pink;
+}
+
+/*-- fixe ------------------------------------------------------------*/
+
+#fixe{
+    position: fixed ;
+    top: 2em;
+    right: 2em;
+    background-color: blue;
+    width: 40%;
+}
+#fixe p {
+    float: left;
+    margin-left: 0.5em;
+}
+#fixe img{
+    float: right;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+}
+/*-- imagen ------------------------------------------------------------*/
+#main{
+  
+}
+
+/*-- diaris ------------------------------------------------------------*/
+.diaris{
+    clear: both;
+    width: 10em;
+    float: left;
+    background-color: yellow;
+    border: 3px solid blue;
+    margin-top: 1em;
+}
+.diaris p{
+    
+    margin-left: 1em;
+}
+/*-- latine ------------------------------------------------------------*/
+#latine{
+    border: 5px dashed blue;
+    background-color: rgb(54, 190, 54);
+    float: left;
+    margin-left: 2em;
+    margin-top: 1em;
+    width: 36em;   
+    text-align: left;
+    padding-left: 1em;
+}
+#latine p a {
+    text-decoration: underline;
+}
+#latine h1{
+    color: blue;
+    text-decoration: underline wavy red;
+    
+}
+
+/*-- clear ------------------------------------------------------------*/
+.clear{
+    clear: both;
+}
+
+/*-- espe ------------------------------------------------------------*/
+#espe{
+    float:left;
+    width: 22em;
+    border: 3px solid blue;
+    background-color: white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+#espe h2 {
+    color: blue
+}
+#espe p .left{
+    float: left;
+    margin-right: 0.2em;
+}
+#espe p .right{
+    float: right;
+    margin-left: 0.2em;
+}
+.offered {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+/*-- last ------------------------------------------------------------*/
+#last {
+    float: right;
+    width: 50em;
+    background-color: rgb(153, 42, 42);
+    border: 5px dashed blue;
+    padding: 1em;
+    margin-bottom: 15em;
+}
+#last p strong {
+    color: blue
+}

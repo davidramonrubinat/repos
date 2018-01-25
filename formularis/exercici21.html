@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exercici21</title>
+</head>
+<body>
+    <form method="post" action="http://daw.iesjoaquimmir.cat/sarti.php" enctype="multipart/form-data" >
+        <fieldset>
+            <legend>Datos Básicos</legend>
+                <label for="idnombre">Nombre:</label><br>
+                <input type="text" id="idnombre" name="nombre" maxlength="30" size="50"/><br/>
+
+                <label for="iddescripcion">Descripción</label><br>
+                <textarea type="text" name="descripcion" id="iddescripcion" cols="50" rows="10"></textarea><br>
+
+                <label>Foto</label>
+                <input name="imagen" type="file"><br>
+            <br>
+            <input name="contador" type="checkbox">añadir contador de visitas</input><br>
+            <br>     
+            
+            </fieldset>  
+
+            <fieldset>
+                <legend>Datos economicos</legend><br>
+                    <label for="idprecio">Precio</label>
+                    <input type="text" id="idprecio" size="6" name="precio">
+                    <label>€</label>
+
+                    <label for="idimpuestos">Impuestos</label>
+                    <select name="impuestos" id="idimpuestos">
+                            <option value="4">4%</option>
+                            <option>7%</option>
+                            <option>16%</option>
+                            <option>25%</option>
+                            
+                    </select><br>
+                    <br>
+                    <label for="idpromo">Promoción</label><br>
+                        <input name="promo" type="radio" value="ninguno"/>Ninguno <br>
+                        <input name="promo" type="radio" value="Transporte Gratuïto"/>Transporte Gratuïto <br>
+                        <input name="promo" type="radio" value="Descuento 5"/>Descuento 5% <br>               
+
+            </fieldset>
+
+            <fieldset>
+                    <input type="reset" value="Borrar los datos introducidos"/>
+                    <input type="submit" value="Guardar cambios"/>
+            </fieldset>
+        
+
+    
+    </form>
+</body>
+</html>

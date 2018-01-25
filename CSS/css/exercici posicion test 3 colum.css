@@ -1,0 +1,36 @@
+body{background-color: rgb(215, 241, 233) } 
+
+#cap {
+    background-color: antiquewhite;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 4rem;
+    vertical-align: middle;
+}
+#menu {
+    font-family: Verdana;
+    float: left;
+    width: 20%;
+}
+#menu dl dt{
+    font-family: Verdana;
+    color: rgb(165, 9, 17);
+}
+#menu dl dd{
+    font-family: Verdana;
+    font-style: italic;
+    color: rgb(35, 92, 156);
+}
+div img.colum{
+    float:right;
+}    
+#content {
+    font-family: Verdana;
+    float: right;
+    width: 40%
+}
+
+#peu {
+    clear: both;
+	border: 2px solid #CCC;
+}

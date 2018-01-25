@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exercici20</title>
+</head>
+<body>
+        <form method="post" action="http://daw.iesjoaquimmir.cat/sarti.php" >
+        
+        <fieldset>
+        <legend>Datos personales</legend>              
+        
+        <br>
+        <label for="idprovincia">Provincia:</label><br>
+        <select name="provincia" id="idprovincia">Provincia
+            <option>Tarragona</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Girona">Girona</option>
+            <option value="Lleida">Lleida</option>
+        </select>
+        <br>
+        <label for="idnacimiento">Fecha nacimiento</label>
+
+        <label for="iddia"></label><br>
+        <input type="text" id="iddia" name="dia" maxlength="2" size="3">
+        <label>de</label>
+        <label for="idmes"></label>
+        <select name="mes" id="idmes">
+            <option value="-1"
+            select>selecciona mes de nacimiento</option>
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>abril</option>
+            <option>mayo</option>
+            <option>junio</option>
+            <option>julio</option>
+            <option>agosto</option>
+            <option>septiembre</option>
+            <option>octubre</option>            
+        </select>
+        <label>de</label>
+        <label for="idany"></label>
+        <input type="text" id="idany" name="any" maxlength="4" size="5">
+        <br>
+        <label for="idinteres">Temas de Interés</label><br>
+        <textarea type="text" id="idinteres" name="interes" rows="10" cols="35" /></textarea><br>
+  
+        <input type="reset" value="Borrar los datos introducidos"/>
+        <input type="submit" value="Guardar cambios"/>
+
+        
+            
+
+        </fieldset>  
+        </form>
+
+        
+
+</body>
+</html>
