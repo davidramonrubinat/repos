@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial;
+}
+#cabecera{
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.445);
+    
+}
+.eur, .libra, .dolar, .yen{
+    font-weight: bold;
+    background-color: #58d4d4;
+    
+    
+}
+
+.primera, .tercera{
+    background-color: rgb(231, 195, 94);
+}
+
+.eur{
+    background-image:url(../imagen/eur.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+}
+.dolar{
+    background-image:url(../imagen/dolar.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: 12%;
+}
+.libra{
+    background-image:url(../imagen/libra.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 10%;
+}
+.yen{
+    background-image:url(../imagen/yen.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 10%;
+}
+.primera:hover, .segunda:hover, .tercera:hover, .cuarta:hover{
+    background-color: rgb(196, 65, 65);
+}
+
+
+.normal {
+    width: 35em;
+    border: 1px solid #000;
+    }
+   
+.normal th, .normal td{
+    border: 1px solid #000;
+    }
+
+.normal {
+    width: 35em;
+    border: 3px solid rgb(216, 15, 15);
+    border-collapse: collapse;
+    }
+.normal th, .normal td {
+        border: 1.5px solid rgb(226, 57, 57);
+    }
+/* Para hacer filas pares de diferente color
+    tr:nth-child(2n){
+        background-color: red;
+    }*/
+
+
+

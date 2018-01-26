@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(247, 107, 107);
+}
+
+fieldset{
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+}
+fieldset#nombre, fieldset#direccio{
+    float: left;
+   
+}
+fieldset#email{
+    clear: both;
+}
+legend{
+    font-family:Arial;
+    font-weight: bold;
+}
+label{
+    font-family:Arial;
+    display: block;
+    margin-bottom: 10px;
+}
+fieldset:hover{
+    background-color: antiquewhite;
+}
+input{
+    background: white;
+}
+input:hover{
+    background-color:rgb(164, 164, 233); 
+}
+
+
