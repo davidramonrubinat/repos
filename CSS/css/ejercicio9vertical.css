@@ -1,0 +1,103 @@
+#contenedor{
+    background-color: rgb(228, 186, 186);
+    font-family: Helvetica;
+    border: 1px solid black;
+    width: 70%;
+    margin: 15px auto;
+}
+#torre{
+    position: fixed right;
+    width: 25%;
+    clear: both;
+   
+}
+fieldset{
+    width: 25%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+}
+fieldset#nombre, fieldset#direccio{
+    float: left;
+}
+fieldset#email{
+    clear: both;
+    float: left;
+
+}
+fieldset#final{
+    float: left;
+    margin-top: 2%;
+    border: none;
+    
+}
+legend{
+    font-family:Arial;
+    font-weight: bold;
+}
+label{
+    font-family:Arial;
+    display: block;
+    margin-bottom: 10px;
+}
+fieldset:hover{
+    background-color: antiquewhite;
+}
+fieldset#final:hover{
+    background-color: rgb(228, 186, 186);
+}
+input{
+    background: white;
+}
+input:hover{
+    background-color:rgb(223, 181, 128);
+    border: solid 2px black; 
+}
+
+/* cambi nou style */
+
+fieldset{
+    clear: both;
+    width: 30em;
+}
+fieldset input{
+    clear: both;
+    float: right;
+}
+fieldset label{
+    clear: both;
+    float: right;    
+}
+fieldset div#ayuda{
+    width: 12em;
+    position: relative; 
+    left: 50px;
+    margin-top: 1em;
+    font-weight: bold;
+    display: none;
+    border: solid 1px black;
+    padding: 0.5em;
+}
+fieldset#direccio select#pais{
+    clear: both;
+    float: right;
+    margin-left: 2%;
+}
+fieldset#direccio select#provincia{
+    float: right;
+}
+fieldset#telefono .fijo{
+    float: right;
+    margin-left: 2%;
+}
+fieldset#telefono .movil{
+    float: right;
+}
+fieldset{
+    border: none;
+}
+fieldset#direccio:hover #ayuda{
+    display: block;
+}
+fieldset#direccio:input #ayuda{
+    visibility: visible;
+}

@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(247, 107, 107);
+    background-color: rgb(228, 186, 186);
+    font-family: Helvetica;
 }
 
 fieldset{
@@ -9,10 +10,17 @@ fieldset{
 }
 fieldset#nombre, fieldset#direccio{
     float: left;
-   
 }
 fieldset#email{
     clear: both;
+    float: left;
+
+}
+fieldset#final{
+    float: left;
+    margin-top: 2%;
+    border: none;
+    
 }
 legend{
     font-family:Arial;
@@ -20,17 +28,22 @@ legend{
 }
 label{
     font-family:Arial;
+    font-size: .8em;  
     display: block;
     margin-bottom: 10px;
+    
 }
 fieldset:hover{
     background-color: antiquewhite;
 }
+fieldset#final:hover{
+    background-color: rgb(228, 186, 186);
+}
 input{
-    background: white;
+    background:white;
 }
 input:hover{
-    background-color:rgb(164, 164, 233); 
+    background-color:rgb(223, 181, 128); 
 }
 
 

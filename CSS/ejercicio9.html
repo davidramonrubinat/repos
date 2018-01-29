@@ -6,6 +6,7 @@
 	<title>Document</title>
 </head>
 <body>
+		<form method="post" action="http://daw.iesjoaquimmir.cat/sarti.php" enctype="multipart/form-data" >
 		<fieldset id="personal">
 				<legend>Formulario de alta</legend>
 				<input type="text" id="idnombre" name="nombre" /><br/>
@@ -18,13 +19,16 @@
 			</fieldset>
 			
 			
-			<fieldset id="email">
-				<legend class="email">Email</legend>
-						<input type="text" id="email" name="email">
-			</fieldset>	
-				
 			
-							
-			</fieldset>  	
+		<fieldset id="email">
+			<legend class="email">Email</legend>
+				<input type="text" id="email" name="email">
+		</fieldset>	
+		
+		<fieldset id="final">
+            <input type="reset" value="Borrar los datos introducidos"/>
+            <input type="submit" value="Guardar cambios"/>
+        </fieldset>							
+	 	
 </body>
 

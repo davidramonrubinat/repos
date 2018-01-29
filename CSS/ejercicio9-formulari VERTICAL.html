@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/ejercicio9.css" title="style">
+    <link rel="stylesheet" type="text/css" href="css/ejercicio9vertical.css" title="style">
     <title>Document</title>
 </head>
 <body>
         <form method="post" action="http://daw.iesjoaquimmir.cat/sarti.php" enctype="multipart/form-data" >
-        <fieldset id="nombre">
+        <div id="contenedor">
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/e9/00/7b/e9007b254ea1e0ae022162c82f80f81a.jpg" alt="Torre Agbar" id="torre">
+            <fieldset id="nombre">
 			<legend>Nombre y apellidos</legend>
 				<input type="text" id="nombre" name="nombre" /><br/>
 					<label for="idnombre">Nombre</label>					
@@ -21,19 +23,13 @@
        
         <fieldset id="direccio">
                 <legend>Dirección</legend>
+                    <div id="ayuda">El código postal es imprescindible para poder recibir los pedidos</div>
                     <input type="text" id="calle" name="calle" /><br/>
                         <label for="idcalle">Calle, número, piso, puerta</label>					
                     <input type="text" id="postal" name="postal" /><br/>
                         <label for="idpostal">Código Postal</label>
                     <input type="text" id="municipio" name="municipio" /><br/>
                         <label for="idmunicipio">Municipio</label>
-                        <select name="provincia" id="provincia">
-                                <option>PROVINCIA</option>
-                                <option value="Tarragona">Tarragona</option>
-                                <option value="Barcelona">Barcelona</option>
-                                <option value="Girona">Girona</option>
-                                <option value="Lleida">Lleida</option>
-                        </select>
                         <select name="pais" id="pais">
                                 <option>PAIS</option>
                                 <option value="SPAIN">España</option>
@@ -41,6 +37,14 @@
                                 <option value="ANDORRA">Andorra</option>
                                 <option value="FRANCIA">Francia</option>        
                         </select>
+                        <select name="provincia" id="provincia">
+                            <option>PROVINCIA</option>
+                            <option value="Tarragona">Tarragona</option>
+                            <option value="Barcelona">Barcelona</option>
+                            <option value="Girona">Girona</option>
+                            <option value="Lleida">Lleida</option>
+                    </select>
+                   
             </fieldset>
                 
 			
@@ -49,10 +53,21 @@
 				<legend>Email</legend>
 				<input type="text" id="email" name="email">
         </fieldset>
-        
+        <fieldset id="telefono">
+                <legend>Teléfono</legend>
+                    <div class="fijo">
+                    <input type="text" id="fijo" name="fijo" /><br/>
+                        <label for="idfijo">Fijo</label>
+                    </div>
+                    <div class="movil">    					
+                    <input type="text" id="movil" name="móvil" /><br/>
+                        <label for="idmóvil">Móvil</label>
+                    </div>
+        </fieldset>
         <fieldset id="final">
                 <input type="reset" value="Borrar los datos introducidos"/>
                 <input type="submit" value="Guardar cambios"/>
         </fieldset>	
+    </div>
 </body>
 </html>
