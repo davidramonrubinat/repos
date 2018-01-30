@@ -1,0 +1,55 @@
+<html>
+	<head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	   <link href="css/formulari.css" rel="stylesheet" type="text/css">
+	   <title>formulari</title>
+	</head>
+
+	<body>
+        <header> FORMULARI AMB NOVES ETIQUETES HMTL5 </header>
+    <div id="buscar">
+        <input type="search" id="busqueda" name="q">
+        <button>Buscar</button>
+    </div>    
+    <fieldset id="primero" >
+        <legend>Primer paso</legend>
+        <input type="email" id="mail" placeholder="Introduzca su e-mail">
+        <label for="idmail">e-mail</label>
+        <input type="url" id="url" placeholder="Introduzca su URL">
+        <label for="idurl">URL</label>
+    </fieldset>
+    <fieldset id="segundo" >
+        <input type="date" id="date">
+        <label for="iddate">Introdueix la teva data de naixement</label>
+        <input type="time" id="time">
+        <label for="idtime">Indicar la hora actual</label>
+        <input type="datetime-local" id="combi">
+    </fieldset>
+    <fieldset id="tercero" >
+        <input type="week" id="week">
+        <label for="iweek">Introdueix setmana d'expedició</label>
+        <input type="month" id="month">
+        <label for="idmonth">Introdueix mes d'expedició</label>
+        <input type="number" id="number">
+        <label for="idnumber">Introdueix número d'expedició</label>
+    </fieldset>
+    <div>
+        <input type="tel" id="tel" autofocus>
+        <label for="idtel">Introduzca su telefono</label>
+        <input type="color" id="color">
+        <label for="idcolor">Seleccione el color deseado</label>
+    </div>
+    <br>
+    <div id=list>
+        <input id="lista" type="text" list="lst1">
+        <datalist id="lst1">
+            <option label="Principal" value="Opción 1">
+            <option label="Secundaria" value="Opción 2">
+        </datalist>
+        <label for="idlista">Marca tu opción</label>
+    </div>
+    <div>
+        <input type="range">
+    </div>
+
+	</body>

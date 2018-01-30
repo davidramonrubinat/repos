@@ -1,0 +1,31 @@
+body{background-color: rgb(253, 225, 130) } 
+
+header{
+    background-color: rgb(246, 213, 122);
+    font-family: Verdana;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+fieldset#primero legend{
+    float: right;
+    font-family: Verdana;
+    font-size: 20px;
+  
+}
+fieldset#primero input, fieldset#segundo input {
+    float: left;
+    clear: both;
+}
+fieldset#primero label, fieldset#segundo label{
+    float: left;
+    clear: both;
+}
+div#buscar{
+    float: right;
+    border: 1px solid black;
+    padding: 8px;
+}
+#combi{
+    float: right;
+}    

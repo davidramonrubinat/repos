@@ -1,36 +1,28 @@
-body{background-color: rgb(215, 241, 233) } 
+body{background-color: rgb(253, 225, 130) } 
 
-#cap {
-    background-color: antiquewhite;
-    font-family: Calibri;
+header{
+    background-color: rgb(246, 213, 122);
+    font-family: Verdana;
+    font-size: 2em;
     font-weight: bold;
-    font-size: 4rem;
-    vertical-align: middle;
+    text-align: center;
 }
-#menu {
-    font-family: Verdana;
-    float: left;
+ul{
+   text-align: center; 
+   border-top: solid 2px black;
+   border-bottom: solid 2px black;
+   padding: 1px;
+}
+a:link{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+li{
+    
     display: inline;
-    border: 2px solid rgb(216, 108, 108);
-    width: 20%;
-}
-#menu dl dt{
-    font-family: Verdana;
-    color: rgb(165, 9, 17);
-}
-#menu dl dd{
-    font-family: Verdana;
-    font-style: italic;
-    color: rgb(35, 92, 156);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#content {
-    font-family: Verdana;
-    display: inline;
-    float: left;
-    width: 78%
-}
-#peu {
-    clear: both;
-	border: 2px solid #CCC;
-}
+    

@@ -1,0 +1,36 @@
+ul{
+    margin-top: 10%;
+    margin-left: 10%;
+    padding-left: 5%;
+}
+
+li:first-child{
+    font-size: 1em;
+    color: red;
+}
+li:first-of-type{
+    color: blue;
+    font-size: 1.5em;
+}
+li:last-child{
+    font-size: 5em;
+}
+li:nth-of-type(2){
+    font-size: 2.5em;
+    color: yellow;
+}
+li:nth-last-of-type(3){
+    font-size: 3.5em;
+    color: red;
+}
+li:last-of-type{
+    font-size: 5em;
+    color: chartreuse;
+}
+li:nth-last-of-type(2){
+    font-size: 4em;
+    font-weight: bold;
+}
+a[href$=".com"], a[href$=".net"]{
+    color:red;
+}
