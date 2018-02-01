@@ -26,3 +26,28 @@ li{
 }
 
     
+
+.container{
+    display: flex;
+    flex-direction:  column;
+    background-color: goldenrod;
+    margin: 5% 5% 5% 5%;
+}
+
+.container>header {
+    
+    background-color: rgb(32, 95, 74);
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>nav {
+  
+    background-color: rgb(32, 95, 74);
+    color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+}
+.container.core>
+
