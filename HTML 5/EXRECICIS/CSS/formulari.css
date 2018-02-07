@@ -1,11 +1,16 @@
-body{background-color: rgb(253, 225, 130) } 
+body{
+    background-image: url(../imatges/fondo.gif);
+    background-size: 900px 900px;
+    font-family: Verdana; 
+} 
 
 header{
-    background-color: rgb(246, 213, 122);
+    width: 770px;
+    height: 100px;
     font-family: Verdana;
     font-size: 2em;
     font-weight: bold;
-    text-align: center;
+    color: white; 
 }
 fieldset#primero legend{
     float: right;
