@@ -1,24 +1,24 @@
+inicio();
+
 function SizeLetter(text){
-    var buscador,resultado;
+    var resultado;
     var may = text.toUpperCase();
     var min = text.toLowerCase();
     
     
 
     if(text == may){
-        resultado="texto MAYÚSCULA";
+        resultado="texto en MAYÚSCULA";
     }else if(text == min){
-        resultado="texto MINÚSCULA";
+        resultado="texto en MINÚSCULA";
     }else{
-        resultado="texto MAYÚSCULA Y MINUSCULA";
+        resultado="texto en MAYÚSCULA Y MINUSCULA";
     }
-
-
-
     return resultado;
 }   
 
-var text = prompt("Introduzca un texto");
-alert("tEXTO SIN MODIFICAR" + SizeLetter(text));
-
+function inicio(){
+var MYtext = prompt("Introduzca un texto");
+alert("EL TEXTO INTRODUCIDO CONTIENE " + SizeLetter(MYtext));
+}
 

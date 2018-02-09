@@ -1,4 +1,6 @@
-    
+alert("Vamos a empezar con el programa de PAR o Impar okey?");
+inicio();    
+
 function ParImpar(numero){
     var resultado = "par";
     if (numero % 1 != 0){
@@ -10,6 +12,7 @@ function ParImpar(numero){
     }
     return resultado;   
 }
-
-var numero = prompt("Introduzca un número entero");
-alert("El numero "+numero+" es "+ParImpar(numero));
+function inicio(){
+var num = prompt("Introduzca un número entero"); 
+alert("El numero "+ num +" es "+ParImpar(num));
+}
