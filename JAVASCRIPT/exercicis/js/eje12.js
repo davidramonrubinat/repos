@@ -6,8 +6,9 @@ function cargaEventos(){
     
 }
 
-
 function mifuncion(){
     document.getElementById("adicional").className="visible";
-    document.getElementById("enlace").className="oculto";
+    var elemento = document.getElementById("enlace");
+    elemento.className="oculto";
+    adicional.style.color="red";
 }
